@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background: url('./image/image6.jpg') no-repeat center center/cover;
+    height: calc(100vh + 40px);
+    width: calc(100vw + 40px);
+    top: -30px;
+    left: -30px;
+    position: absolute;
+    z-index: -1;
+    filter: blur(80px);
+}
+
+.lodingText{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 100;
+    filter: blur(0px);
+}
